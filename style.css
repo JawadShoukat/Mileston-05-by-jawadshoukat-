@@ -1,0 +1,105 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(228, 231, 233);
+}
+
+h1{
+    text-align: center;
+    color: rgb(80, 90, 92);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+
+    
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #2ce2e2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    
+}
+
+fieldset {
+    border: 2px solid #30a6cd ;
+    border-radius: 9px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(215, 231, 246);
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #2c3e50;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: #000000;
+}
+
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #3498bd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(58, 179, 126);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #4985b0;
+}
+
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #1daee3;
+    border-radius: 8px;
+    background-color: rgb(165, 240, 230);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resumeOutput h2 {  
+    color: #2c3e50;
+}
+
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #3498bd;
+    box-shadow:0 4px 8px rgba(11, 7, 211, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    
+}
+
+#js{
+    color:rgb(43, 83, 226);
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
